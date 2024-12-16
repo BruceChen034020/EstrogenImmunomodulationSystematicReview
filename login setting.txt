@@ -1,0 +1,553 @@
+Microsoft Windows [版本 10.0.19045.5247]
+(c) Microsoft Corporation. 著作權所有，並保留一切權利。
+
+C:\Users\user>python
+
+C:\Users\user>jupyter
+'jupyter' 不是內部或外部命令、可執行的程式或批次檔。
+
+C:\Users\user>git
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+C:\Users\user>shutdown -h
+
+C:\Users\user>shutdown -h
+
+C:\Users\user>git diff
+warning: Not a git repository. Use --no-index to compare two paths outside a working tree
+usage: git diff --no-index [<options>] <path> <path>
+
+Diff output format options
+    -p, --patch           generate patch
+    -s, --no-patch        suppress diff output
+    -u                    generate patch
+    -U, --unified[=<n>]   generate diffs with <n> lines context
+    -W, --function-context
+                          generate diffs with <n> lines context
+    --raw                 generate the diff in raw format
+    --patch-with-raw      synonym for '-p --raw'
+    --patch-with-stat     synonym for '-p --stat'
+    --numstat             machine friendly --stat
+    --shortstat           output only the last line of --stat
+    -X, --dirstat[=<param1,param2>...]
+                          output the distribution of relative amount of changes for each sub-directory
+    --cumulative          synonym for --dirstat=cumulative
+    --dirstat-by-file[=<param1,param2>...]
+                          synonym for --dirstat=files,param1,param2...
+    --check               warn if changes introduce conflict markers or whitespace errors
+    --summary             condensed summary such as creations, renames and mode changes
+    --name-only           show only names of changed files
+    --name-status         show only names and status of changed files
+    --stat[=<width>[,<name-width>[,<count>]]]
+                          generate diffstat
+    --stat-width <width>  generate diffstat with a given width
+    --stat-name-width <width>
+                          generate diffstat with a given name width
+    --stat-graph-width <width>
+                          generate diffstat with a given graph width
+    --stat-count <count>  generate diffstat with limited lines
+    --compact-summary     generate compact summary in diffstat
+    --binary              output a binary diff that can be applied
+    --full-index          show full pre- and post-image object names on the "index" lines
+    --color[=<when>]      show colored diff
+    --ws-error-highlight <kind>
+                          highlight whitespace errors in the 'context', 'old' or 'new' lines in the diff
+    -z                    do not munge pathnames and use NULs as output field terminators in --raw or --numstat
+    --abbrev[=<n>]        use <n> digits to display object names
+    --src-prefix <prefix>
+                          show the given source prefix instead of "a/"
+    --dst-prefix <prefix>
+                          show the given destination prefix instead of "b/"
+    --line-prefix <prefix>
+                          prepend an additional prefix to every line of output
+    --no-prefix           do not show any source or destination prefix
+    --default-prefix      use default prefixes a/ and b/
+    --inter-hunk-context <n>
+                          show context between diff hunks up to the specified number of lines
+    --output-indicator-new <char>
+                          specify the character to indicate a new line instead of '+'
+    --output-indicator-old <char>
+                          specify the character to indicate an old line instead of '-'
+    --output-indicator-context <char>
+                          specify the character to indicate a context instead of ' '
+
+Diff rename options
+    -B, --break-rewrites[=<n>[/<m>]]
+                          break complete rewrite changes into pairs of delete and create
+    -M, --find-renames[=<n>]
+                          detect renames
+    -D, --irreversible-delete
+                          omit the preimage for deletes
+    -C, --find-copies[=<n>]
+                          detect copies
+    --find-copies-harder  use unmodified files as source to find copies
+    --no-renames          disable rename detection
+    --rename-empty        use empty blobs as rename source
+    --follow              continue listing the history of a file beyond renames
+    -l <n>                prevent rename/copy detection if the number of rename/copy targets exceeds given limit
+
+Diff algorithm options
+    --minimal             produce the smallest possible diff
+    -w, --ignore-all-space
+                          ignore whitespace when comparing lines
+    -b, --ignore-space-change
+                          ignore changes in amount of whitespace
+    --ignore-space-at-eol
+                          ignore changes in whitespace at EOL
+    --ignore-cr-at-eol    ignore carrier-return at the end of line
+    --ignore-blank-lines  ignore changes whose lines are all blank
+    -I, --ignore-matching-lines <regex>
+                          ignore changes whose all lines match <regex>
+    --indent-heuristic    heuristic to shift diff hunk boundaries for easy reading
+    --patience            generate diff using the "patience diff" algorithm
+    --histogram           generate diff using the "histogram diff" algorithm
+    --diff-algorithm <algorithm>
+                          choose a diff algorithm
+    --anchored <text>     generate diff using the "anchored diff" algorithm
+    --word-diff[=<mode>]  show word diff, using <mode> to delimit changed words
+    --word-diff-regex <regex>
+                          use <regex> to decide what a word is
+    --color-words[=<regex>]
+                          equivalent to --word-diff=color --word-diff-regex=<regex>
+    --color-moved[=<mode>]
+                          moved lines of code are colored differently
+    --color-moved-ws <mode>
+                          how white spaces are ignored in --color-moved
+
+Other diff options
+    --relative[=<prefix>]
+                          when run from subdir, exclude changes outside and show relative paths
+    -a, --text            treat all files as text
+    -R                    swap two inputs, reverse the diff
+    --exit-code           exit with 1 if there were differences, 0 otherwise
+    --quiet               disable all output of the program
+    --ext-diff            allow an external diff helper to be executed
+    --textconv            run external text conversion filters when comparing binary files
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules in the diff generation
+    --submodule[=<format>]
+                          specify how differences in submodules are shown
+    --ita-invisible-in-index
+                          hide 'git add -N' entries from the index
+    --ita-visible-in-index
+                          treat 'git add -N' entries as real in the index
+    -S <string>           look for differences that change the number of occurrences of the specified string
+    -G <regex>            look for differences that change the number of occurrences of the specified regex
+    --pickaxe-all         show all changes in the changeset with -S or -G
+    --pickaxe-regex       treat <string> in -S as extended POSIX regular expression
+    -O <file>             control the order in which files appear in the output
+    --rotate-to <path>    show the change in the specified path first
+    --skip-to <path>      skip the output to the specified path
+    --find-object <object-id>
+                          look for differences that change the number of occurrences of the specified object
+    --diff-filter [(A|C|D|M|R|T|U|X|B)...[*]]
+                          select files by diff type
+    --output <file>       output to a specific file
+
+
+C:\Users\user>git diff 9a22df4 d5143f5
+error: Could not access '9a22df4'
+
+C:\Users\user>cd downloads
+
+C:\Users\user\Downloads>git clone https://github.com/BruceChen034020/EstrogenImmunomodulationSystematicReview.git
+Cloning into 'EstrogenImmunomodulationSystematicReview'...
+remote: Enumerating objects: 497, done.
+remote: Counting objects: 100% (339/339), done.
+remote: Compressing objects: 100% (188/188), done.
+remote: Total 497 (delta 145), reused 311 (delta 129), pack-reused 158 (from 1)
+Receiving objects:  97% (483/497), 102.14 MiB | 33.79 MiB/s
+Receiving objects: 100% (497/497), 107.89 MiB | 33.99 MiB/s, done.
+Resolving deltas: 100% (226/226), done.
+Updating files: 100% (128/128), done.
+
+C:\Users\user\Downloads>cd EstrogenImmunomodulationSystematicReview
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git diff
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git diff 9a22df467547f11719c8611b5bbbea60653d982d d5143f5060673d917ecae847b61ff0fb8c8e3123
+diff --git a/0 b/0
+index a60e4f0..79f2f0c 100644
+--- a/0
++++ b/0
+@@ -1,6 +1,5 @@
+ Role of Estrogen in Type 1 and Type 2 Diabetes Mellitus: A Review of Clinical and Preclinical Data.
+ A mechanistic insight of phytoestrogens used for Rheumatoid arthritis: An evidence-based review.
+-Estrogen protection against EAE modulates the microbiota and mucosal-associated regulatory cells.
+ Menopausal estrogen therapy and non-Hodgkin's lymphoma: A post-hoc analysis of women's health initiative randomized clinical trial.
+ Bedside to bench to bedside research: Estrogen receptor beta ligand as a candidate neuroprotective treatment for multiple sclerosis.
+ Comparison of Two Estrogen Chemically Activated Luciferase Expression Cell
+@@ -8,7 +7,6 @@ Critical Review: Mechanisms of HIV Transmission in Depo-Provera Users: The Likel
+ Protective Effect of Probiotic Bacteria and Estrogen in Preventing HIV-1-Mediated Impairment of Epithelial Barrier Integrity in Female Genital Tract.
+ Estrogens regulate glycosylation of IgG in women and men
+ Current use of estrogen-containing oral contraceptives or hormone therapy and risk of COVID-19 infection and hospitalization: a population-based cohort study
+-Role of estrogen signaling in fibroblastic reticular cells?for innate and adaptive immune responses in antigen-induced arthritis
+ EFFECTS OF CUMULATIVE LIFETIME ESTROGEN EXPOSURE ON THE CLINICAL CHARACTERISTICS AND COURSES IN POSTMENOPAUSAL WOMEN WITH RHEUMATOID ARTHRITIS
+ Unveiling the Nexus: Cellular Metabolomics Unravels the Impact of Estrogen on Nicotinamide Metabolism in Mitigating Rheumatoid Arthritis Pathogenesis
+ Phytoestrogen-Based Hormonal Replacement Therapy Could Benefit Women Suffering Late-Onset Asthma
+@@ -24,8 +22,6 @@ Anti-COVID-19 Vaccination, COVID-19, and Female Contraception: The Exacerbated R
+ Increased Prevalence of Thrombotic Events in Anti-Phospholipid Antibody-Positive SLE Patients on Estrogen-Containing Contraception
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git add .
+warning: in the working copy of 'Intro.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.ipynb_checkpoints/Intro-checkpoint.ipynb', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git add .
+warning: in the working copy of '.ipynb_checkpoints/Intro-checkpoint.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Intro.ipynb', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git commit -m 0
+[main 84cefe7] 0
+ 3 files changed, 1921 insertions(+), 95 deletions(-)
+ create mode 100644 .ipynb_checkpoints/Intro-checkpoint.ipynb
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git push
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/BruceChen034020/EstrogenImmunomodulationSystematicReview.git/'
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>shutdown -h
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>shutdown -h
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git push
+info: please complete authentication in your browser...
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <type>     value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git config --global
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <type>     value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git config --global credential.helper
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git config --global credential.helper store
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git config --global credential.helper
+store
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git config --global user.email
+kchen0919@gmail.com
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git config --global user.password
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>clear
+'clear' 不是內部或外部命令、可執行的程式或批次檔。
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Intro.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git add .
+warning: in the working copy of 'Intro.ipynb', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git commit -m "hahaha"
+[main ce1e3c2] hahaha
+ 1 file changed, 39 insertions(+), 2 deletions(-)
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git push
+fatal: User canceled device code authentication
+      0 [main] bash 1721 dofork: child -1 - forked process 20580 died unexpectedly, retry 0, exit code 0xC0000142, errno 11
+bash: fork: retry: Resource temporarily unavailable
+1154342 [main] bash 1721 dofork: child -1 - forked process 16896 died unexpectedly, retry 0, exit code 0xC0000142, errno 11
+bash: fork: retry: Resource temporarily unavailable
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git config --global user.password
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git config --global user.password *******
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git push
+To https://github.com/BruceChen034020/EstrogenImmunomodulationSystematicReview.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/BruceChen034020/EstrogenImmunomodulationSystematicReview.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git pull
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 8.75 KiB | 688.00 KiB/s, done.
+From https://github.com/BruceChen034020/EstrogenImmunomodulationSystematicReview
+   cc90795..6f78956  main       -> origin/main
+Auto-merging 1
+CONFLICT (content): Merge conflict in 1
+Automatic merge failed; fix conflicts and then commit the result.
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git pull
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git diff --name-only --diff-filter=U --relative
+warning: in the working copy of '1', LF will be replaced by CRLF the next time Git touches it
+1
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git reset --hard FETCH_HEAD
+HEAD is now at 6f78956 Add files via upload
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vs/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>rm -rf .vs
+'rm' 不是內部或外部命令、可執行的程式或批次檔。
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>del .vs
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview\.vs\*，您確定要執行嗎 (Y/N)? y
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>ls
+'ls' 不是內部或外部命令、可執行的程式或批次檔。
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vs/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>touch hi
+'touch' 不是內部或外部命令、可執行的程式或批次檔。
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>echo hi
+hi
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>echo hi > hi
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>cat hi
+'cat' 不是內部或外部命令、可執行的程式或批次檔。
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hi
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git add .
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git commit -m "hi"
+[main 21a26b9] hi
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hi
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 256 bytes | 256.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/BruceChen034020/EstrogenImmunomodulationSystematicReview.git
+   6f78956..21a26b9  main -> main
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git reset --hard ~HEAD
+fatal: ambiguous argument '~HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git reset --hard ^HEAD
+HEAD is now at 21a26b9 hi
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git config --global --edit
+hint: Waiting for your editor to close the file... error: There was a problem with the editor 'vi'.
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git config --global --unset user.password
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git config --global user.password
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>echo hi>hi
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git add .
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git commit -m "fdsaofjdosa"
+[main ada79f3] fdsaofjdosa
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 262 bytes | 262.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/BruceChen034020/EstrogenImmunomodulationSystematicReview.git
+   21a26b9..ada79f3  main -> main
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>git reset --hard ^HEAD
+HEAD is now at ada79f3 fdsaofjdosa
+
+C:\Users\user\Downloads\EstrogenImmunomodulationSystematicReview>
