@@ -1,1 +1,11 @@
+PubMed
 ("Estrogens"[MeSH] OR Estrogen) AND ("Immune System Diseases"[MeSH] OR "Autoimmune diseases" OR lupus OR SLE OR RA OR “rheumatoid arthritis” OR MS OR “multiple sclerosis” OR “GPA” OR “granulomatosis with polyangiitis” OR Wegener OR Wegener’s OR psoriasis OR Sjogren OR Sjögren OR Sjogren’s OR Sjögren’s OR allergy OR allergies OR "Diabetes Mellitus, Type 1"[MeSH]) AND ("Hormone Replacement Therapy"[MeSH] OR “Estrogen Replacement Therapy"[MeSH] OR Prevention)
+
+Embase
+('estrogens'/exp OR 'estrogens' OR 'estrogen'/exp OR 'estrogen') AND ('immune system diseases'/exp OR 'immune system diseases' OR 'autoimmune diseases'/exp OR 'autoimmune diseases' OR 'lupus' OR 'sle'/exp OR 'sle' OR 'rheumatoid arthritis'/exp OR 'rheumatoid arthritis' OR 'ra' OR 'multiple sclerosis'/exp OR 'multiple sclerosis' OR 'ms' OR 'granulomatosis with polyangiitis'/exp OR 'granulomatosis with polyangiitis' OR 'wegener' OR 'wegeners' OR 'psoriasis'/exp OR 'psoriasis' OR 'sjogren' OR 'sjögren' OR 'allergy'/exp OR 'allergy' OR 'allergies') AND ('hormone therapy'/exp OR 'hormone therapy' OR 'prevention'/exp OR 'prevention') AND [2015-2025]/py
+
+Cochrane Library
+(Estrogens OR Estrogen) AND ("Immune System Diseases" OR "Autoimmune diseases" OR lupus OR SLE OR RA OR “rheumatoid arthritis” OR MS OR “multiple sclerosis” OR “GPA” OR “granulomatosis with polyangiitis” OR Wegener OR Wegener’s OR psoriasis OR Sjogren OR Sjögren OR Sjogren’s OR Sjögren’s OR allergy OR allergies) AND ("Hormone Therapy" OR Prevention)
+
+Web of Science
+TS=(Estrogens OR Estrogen) AND TS=("Immune System Diseases" OR "Autoimmune diseases" OR lupus OR SLE OR RA OR “rheumatoid arthritis” OR MS OR “multiple sclerosis” OR “GPA” OR “granulomatosis with polyangiitis” OR Wegener OR Wegener’s OR psoriasis OR Sjogren OR Sjögren OR Sjogren’s OR Sjögren’s OR allergy OR allergies) AND TS=("Hormone Therapy" OR Prevention)
